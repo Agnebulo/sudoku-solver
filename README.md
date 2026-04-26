@@ -1,13 +1,13 @@
 # sudoku-solver
 kursinis
 1. Introduction 
-a. Sudoku Solver is an application designed to solve standard 9x9 Sudoku puzzles. 
+1. Sudoku Solver is an application designed to solve standard 9x9 Sudoku puzzles. 
 Empty cells are represented by the number 0. The application uses the 
 backtracking algorithm to search for a valid solution. 
-b. Running the program  
+2. Running the program  
 The project files must be in one folder. To run the program run command “python 
 main.py“ 
-c. How to Use the Program 
+3. How to Use the Program 
 1) Open input.txt 
 2) Enter Sudoku puzzle using 9 rows and 9 numbers in each row 
 3) Use 0 for empty cells 
@@ -22,14 +22,14 @@ c. How to Use the Program
 5) file_manager.py – reading/writing files 
 6) tests/test_solver.py – unit tests 
 2.1. OOP pillars 
-a. Encapsulation 
+1. Encapsulation 
 Encapsulation means protecting internal data inside a class. 
 Example: 
 class SudokuBoard: 
 def __init__(self, grid): 
 self._grid = grid 
 The _grid attribute is stored inside the object and accessed through methods. 
-b. Abstraction 
+2. Abstraction 
 Abstraction means showing only important functionality. 
 Example: 
 from abc import ABC, abstractmethod 
@@ -38,17 +38,17 @@ class SudokuSolver(ABC):
 def solve(self, board): 
 pass 
 The user knows every solver must have solve() method. 
-c. Inheritance 
+3. Inheritance 
 Inheritance allows one class to reuse another class design. 
 Example: 
 class BacktrackingSolver(SudokuSolver): 
 BacktrackingSolver inherits from SudokuSolver. 
-d. Polymorphism 
+4. Polymorphism 
 Polymorphism means different objects can use the same method name differently. 
 Example: 
 solver.solve(board) 
 Different solver classes could implement solve() in different ways. 
-f. Design Pattern – Singleton 
+5. Design Pattern – Singleton 
 The project uses the Singleton design pattern in the FileManager class. This 
 ensures that only one instance of the file management object exists during program 
 execution. 
