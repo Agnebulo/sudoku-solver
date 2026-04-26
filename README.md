@@ -57,14 +57,14 @@ file_manager = FileManager()
 If another object is created later, the same instance is returned. 
 3.1. 
 Results  
-• A functional Sudoku Solver application was successfully created in Python, 
+1. A functional Sudoku Solver application was successfully created in Python, 
 capable of reading puzzles from a TXT file, solving them, and saving the results. 
-• The project correctly implemented the main OOP principles and used the 
+2. The project correctly implemented the main OOP principles and used the 
 Singleton design pattern. 
-• One challenge during development was handling invalid input files, such as 
+3. One challenge during development was handling invalid input files, such as 
 missing rows or incorrect numbers, so validation checks were added to ensure 
 the file always contains a 9x9 puzzle before solving. 
-• Another difficulty was debugging the backtracking algorithm when some 
+4. Another difficulty was debugging the backtracking algorithm when some 
 numbers were placed incorrectly. This was fixed by correcting the 3x3 box 
 validation logic to properly calculate the starting row and column of each 
 subgrid before checking for duplicate values. 
