@@ -14,7 +14,6 @@ c. How to Use the Program
 4) Save the file 
 5) Run the program 
 6) View result in console and output.txt 
-Agnė Bulovaitė, Eef-25/2 
 2. Analysis  
 1) main.py – starts the program 
 2) board.py – Sudoku board class 
@@ -42,7 +41,6 @@ The user knows every solver must have solve() method.
 c. Inheritance 
 Inheritance allows one class to reuse another class design. 
 Example: 
-Agnė Bulovaitė, Eef-25/2 
 class BacktrackingSolver(SudokuSolver): 
 BacktrackingSolver inherits from SudokuSolver. 
 d. Polymorphism 
@@ -57,7 +55,6 @@ execution.
 Example: 
 file_manager = FileManager() 
 If another object is created later, the same instance is returned. 
-Agnė Bulovaitė, Eef-25/2 
 3.1. 
 Results  
 • A functional Sudoku Solver application was successfully created in Python, 
